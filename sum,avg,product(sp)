@@ -1,0 +1,7 @@
+echo "enter number of integers"
+read n
+echo "enter integers"
+read a b c d
+echo "sum =  `expr $a + $b + $c + $d`"
+echo "Average =  `expr $sum / $n `"
+echo "Product = `expr $a \* $b \* $c \* $d`"
